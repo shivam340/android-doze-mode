@@ -1,0 +1,4 @@
+adb shell dumpsys battery unplug
+adb shell input keyevent KEYCODE_POWER
+adb shell dumpsys deviceidle step
+
